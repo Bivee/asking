@@ -4,24 +4,56 @@
 
 =head2 BIVEE ASKING
 
-Software no estilo Q&A (question and answer) escrito em Perl 5
+Software no estilo Q&A (question and answer) baseado no modelo do StackOverflow escrito em Perl 5.
+
+
+=head3 DESCRIÇÃO
+
+Sites de perguntas e resposta são ótimos softwares para gerar bases de conhecimento de forma
+simples, organizada e colaborativa e parecem uma alternativa um pouco mais atrativa que os 
+sites Wiki, em minha opinião, pois o registro tanto das perguntas quanto das respostas são feitas 
+em forma de posts ou comentários pelos usuários.
+
+Este projeto visa criar uma aplicação para que possa ser utilizado para esses ou outros fins 
+particulares.
+
 
 =head3 POR QUE?
 
 Este tipo de software é de grande utilidade para a criação de bases de conhecimento e 
-suporte para empresas, produtos e projetos.
+suporte para empresas, produtos e projetos. Como perl é uma linguagem simples e presenta na maior
+parte dos servidores, um sistema como este pode ser usado interna ou externamente por uma 
+instituição para montar base de conhecimentos de forma colaborativa.
 
-=head3 IMPLEMENTAÇÃO
+
+=head3 TECNOLOGIAS USADAS
 
 Este softwate será implementado utilizado as seguintes tecnologias:
 
-Perl 5.10+
-Mojolicious Web Framework 4+
-ObjectDB ORM
+=over 2
+
+=item Perl 5.10+
+
+=item Mojolicious Web Framework
+
+=item ObjectDB ORM
+
+=back
+
+
+=head3 COMO RODAR A APLICAÇÃO?
+
+Certifique-se de que você tenha a ultima versão do L<Mojolicious> instalada.
+
+Clone o repositório e entre com os seguintes comandos no terminal/prompt de comandos:
+
+    morbo asking/index.pl
+
 
 =head3 AUTHOR
 
 Daniel Vinciguerra <daniel.vinciguerra at bivee.com.br>
-2013 (c) Bivee.
+
+2013 (c) Bivee. All rights reserved.
 
 =cut
