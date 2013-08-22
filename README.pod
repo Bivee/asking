@@ -2,47 +2,22 @@
 
 =encoding utf8
 
-=head2 BIVEE MOJOLICIOUS BASE
+=head2 BIVEE ASKING
 
-Este repositório contem o esqueleto de um projeto mojolicious alterado para seguir o padrão interno dos projetos da empresa Bivee e para 
-simplificar o start up dos projetos internos.
+Software no estilo Q&A (question and answer) escrito em Perl 5
 
-=head3 O QUE HÁ DE NOVO?
+=head3 POR QUE?
 
-Não ha nada de mais... nada mesmo!
+Este tipo de software é de grande utilidade para a criação de bases de conhecimento e 
+suporte para empresas, produtos e projetos.
 
-Fizemos apenas algumas adaptações e criamos alguns diretórios, renomeamos arquivos e criamos paths para organizar de forma mais 
-"intuitiva" a estrutura padrão do esqueleto do projeto de mojolicious non-lite.
+=head3 IMPLEMENTAÇÃO
 
-=head3 ALTERAÇÕES
+Este softwate será implementado utilizado as seguintes tecnologias:
 
-=over 4
-
-=item B<Namespace Controller>
-
-A estrutura de diretório dos módulos da camada de controller que
-antes era abrigado em /MyAPP agora fica em /MyAPP/Controller e 
-todas as classes de controller devem estar neste namespace.
-
-=item B<Namespace Model>
-
-Tendo movido as classes da camada de controller para um namespace
-mais "apropriado", criamos o namespace MyAPP::Model no path
-/MyAPP/Model.
-
-=item B<Default Route>
-
-A rota default para onde o L<localhost:3000> apontava ficava em
-MyAPP::Example::welcome e agora mudamos para MyAPP::Controller::Home::index
-e o template para o respectivo diretório (home/index.html.ep)
-
-=item B<Melhorias no layouts>
-
-O arquivo F<"/layouts/default.html.ep"> que antes era simples contendo
-somente a estrutura básica do HTML agora possui o load do jquery
-e do twitter bootstrap por padrão.
-
-=back
+Perl 5.10+
+Mojolicious Web Framework 4+
+ObjectDB ORM
 
 =head3 AUTHOR
 
