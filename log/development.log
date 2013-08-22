@@ -1,0 +1,14 @@
+[Wed Jun 19 12:13:59 2013] [info] Listening at "http://*:3000".
+[Wed Jun 19 12:14:08 2013] [debug] Your secret passphrase needs to be changed!!!
+[Wed Jun 19 12:14:08 2013] [debug] GET "/".
+[Wed Jun 19 12:14:08 2013] [debug] Routing to controller "MyAPP::Controller::Home" and action "index".
+[Wed Jun 19 12:14:08 2013] [debug] Rendering template "home/index.html.ep".
+[Wed Jun 19 12:14:08 2013] [debug] Rendering template "layouts/default.html.ep".
+[Wed Jun 19 12:14:08 2013] [debug] 200 OK (0.018643s, 53.639/s).
+[Tue Aug 20 17:02:30 2013] [info] Listening at "http://*:3000".
+[Tue Aug 20 17:02:36 2013] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 20 17:02:36 2013] [debug] GET "/".
+[Tue Aug 20 17:02:36 2013] [debug] Routing to controller "MyAPP::Controller::Home" and action "index".
+[Tue Aug 20 17:02:36 2013] [debug] Rendering template "home/index.html.ep".
+[Tue Aug 20 17:02:36 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug 20 17:02:36 2013] [debug] 200 OK (0.052653s, 18.992/s).
