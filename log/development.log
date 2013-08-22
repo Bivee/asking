@@ -12,3 +12,10 @@
 [Tue Aug 20 17:02:36 2013] [debug] Rendering template "home/index.html.ep".
 [Tue Aug 20 17:02:36 2013] [debug] Rendering template "layouts/default.html.ep".
 [Tue Aug 20 17:02:36 2013] [debug] 200 OK (0.052653s, 18.992/s).
+[Thu Aug 22 01:11:51 2013] [info] Listening at "http://*:3000".
+[Thu Aug 22 01:11:58 2013] [debug] Your secret passphrase needs to be changed!!!
+[Thu Aug 22 01:11:58 2013] [debug] GET "/".
+[Thu Aug 22 01:11:58 2013] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Thu Aug 22 01:11:58 2013] [debug] Rendering template "home/index.html.ep".
+[Thu Aug 22 01:11:58 2013] [debug] Rendering template "layouts/default.html.ep".
+[Thu Aug 22 01:11:58 2013] [debug] 200 OK (0.036854s, 27.134/s).
