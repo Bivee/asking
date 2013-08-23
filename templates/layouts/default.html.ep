@@ -1,14 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-<script src="http://code.jquery.com/jquery.min.js"></script>
-<link href="http://twitter.github.io/bootstrap/assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
-<link href="http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
-<script src="http://twitter.github.io/bootstrap/assets/js/bootstrap.js"></script>
-<meta charset=utf-8 />
-<title>Bivee Mojolicious project base</title>
-</head>
-<body>
-    <%= content %> 
-</body>
+  <head><title><%= title %></title></head>
+  <body><%= content %></body>
 </html>

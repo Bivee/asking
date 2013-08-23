@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Bivee Asking</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bivee Askink is a Question & Answer Platform">
+    <meta name="author" content="Bivee">
+    
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+
+    <style type="text/css">
+        html, body { height: 100%; }
+        #wrap { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -60px; }
+        #push, #footer { height: 60px; }
+        .top-menu { font-size: 11pt; margin-top: 20px; text-transform: uppercase; }
+        #wrap > .container { margin-top: 80px; padding-bottom: 50px; }
+        .container .credit { margin: 20px 0; }
+        code { font-size: 80%; }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <!-- Fixed navbar -->
+        <div class="navbar navbar-fixed-top transparent">
+            <div class="navbar-inner">
+                <div class="container">
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar">
+                        </span>
+                    </button>
+                    <a class="brand" href="<%= url_for '/note' %>">
+                        <h3>Bivee Asking</h3>
+                    </a>
+                    <div class="nav-collapse collapse top-menu">
+                        <ul class="nav">
+                            <li><a href="<%= url_for '/question' %>" role="button">Question</a></li>
+                            <li><a href="<%= url_for '/tags' %>" role="button">Tags</a></li>
+                            <li><a href="<%= url_for '/user' %>" role="button">Users</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" style="margin-top: 90px;">
+            <div class="row-fluid">
+
+                <div class="span9">
+                    <div class="contaner">
+                        <div class="row">
+                            <div class="span4">
+                                <form method="post" action="<%= url_for '/note/search' %>" class="form search">
+                                    <div id="MySearch" class="input-append search">
+                                        <input class="input-large" placeholder="Search" type="text" name="q" />
+                                        <button type="submit" class="btn"><i class="icon-search"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="span8">
+                                <p class="text-right">
+                                    <a href="javascript:void(0);" class="btn btn-small btn-danger"><span class="icon-user">
+                                        </span>&nbsp;User Account</a>  <a href="javascript:void(0);"
+                                                class="btn btn-small btn-danger"><span class="icon-off"></span>&nbsp;Logout</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contaner">
+                            <!-- content body -->
+                            <%= content %>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="span3">
+                    <%= content_for 'main_menu' %>            
+                    <br>
+                    <blockquote>
+                        <p>Statistics</p>
+                        <small><%= Notes::Model::Note->new->count %> note(s) at moment.</small>
+                    </blockquote>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="container">
+            <p class="muted credit">2013 &copy; Bivee. Todos os direitos reservados.</p>
+        </div>
+    </div>
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap-transition.js"></script>
+    <script src="/js/bootstrap-alert.js"></script>
+    <script src="/js/bootstrap-modal.js"></script>
+    <script src="/js/bootstrap-dropdown.js"></script>
+    <script src="/js/bootstrap-scrollspy.js"></script>
+    <script src="/js/bootstrap-tab.js"></script>
+    <script src="/js/bootstrap-tooltip.js"></script>
+    <script src="/js/bootstrap-popover.js"></script>
+    <script src="/js/bootstrap-button.js"></script>
+    <script src="/js/bootstrap-collapse.js"></script>
+    <script src="/js/bootstrap-carousel.js"></script>
+    <script src="/js/bootstrap-typeahead.js"></script>
+
+
+    <script type="text/javascript">
+        <%= content_for 'script' %>            
+    </script>
+</body>
+</html>
