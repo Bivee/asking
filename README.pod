@@ -28,7 +28,7 @@ instituição para montar base de conhecimentos de forma colaborativa.
 
 =head3 TECNOLOGIAS USADAS
 
-Este softwate será implementado utilizado as seguintes tecnologias:
+Este software será implementado utilizado as seguintes tecnologias:
 
 =over 2
 
@@ -54,6 +54,12 @@ Clone o repositório e entre com os seguintes comandos no terminal/prompt de com
 
 Daniel Vinciguerra <daniel.vinciguerra at bivee.com.br>
 
+
+=head3 COPYRIGHT AND LICENSE
+
 2013 (c) Bivee. All rights reserved.
+
+This is free software; you can redistribute it and/or modify it under the same terms as 
+the Perl 5 programming language system itself.
 
 =cut
