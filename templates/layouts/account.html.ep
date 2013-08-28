@@ -36,9 +36,9 @@
                         </span>
                     </button>
                     <a class="brand" href="<%= url_for '/note' %>">
-                        <h3>Bivee Asking</h3>
+                        <h4>Bivee Asking</h4>
                     </a>
-                    <div class="nav-collapse collapse top-menu">
+                    <div class="nav-collapse collapse">
                         <ul class="nav">
                             <li><a href="<%= url_for '/question' %>" role="button">Question</a></li>
                             <li><a href="<%= url_for '/tags' %>" role="button">Tags</a></li>

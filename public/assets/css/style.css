@@ -1,0 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(http://fonts.googleapis.com/css?family=Oswald:300,400,600,700);
+/* @import url(flexslider.css); */
+
+html, body {
+    margin:0px auto;
+    height: 100%;
+    background-color:#FFF;
+}
+
+.top-button { color:#fff;border:solid 2px #c3c3c3; background-color:#eaeaea;margin-right:10px; }
+
+
+
+
