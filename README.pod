@@ -1,53 +1,51 @@
-=pod
 
 =encoding utf8
 
 =head2 BIVEE ASKING
 
-Software no estilo Q&A (question and answer) baseado no modelo do StackOverflow escrito em Perl 5.
+Software no estilo Q&A (question and answer) baseado no modelo do StackOverflow escrito em Perl
 
-
-=head3 DESCRIÇÃO
-
-Sites de perguntas e resposta são ótimos softwares para gerar bases de conhecimento de forma
-simples, organizada e colaborativa e parecem uma alternativa um pouco mais atrativa que os 
-sites Wiki, em minha opinião, pois o registro tanto das perguntas quanto das respostas são feitas 
-em forma de posts ou comentários pelos usuários.
-
-Este projeto visa criar uma aplicação para que possa ser utilizado para esses ou outros fins 
-particulares.
+Este projeto visa criar uma aplicação web aberta e livre para que pessoas e empresas possam utilizar 
+e criar suas proprias bases de conhecimento baseando-se no modelo de perguntas e respostas.
 
 
 =head3 POR QUE?
 
-Este tipo de software é de grande utilidade para a criação de bases de conhecimento e 
+Este tipo de software é de grande utilidade para a criação de bases de conhecimento, 
 suporte para empresas, produtos e projetos. Como perl é uma linguagem simples e presenta na maior
 parte dos servidores, um sistema como este pode ser usado interna ou externamente por uma 
-instituição para montar base de conhecimentos de forma colaborativa.
+instituição para montar base de conhecimentos alimentada pelos proprios usuários e de forma 
+colaborativa e transparente.
 
 
 =head3 TECNOLOGIAS USADAS
 
-Este software será implementado utilizado as seguintes tecnologias:
-
-=over 2
+=over
 
 =item Perl 5.10+
 
 =item Mojolicious Web Framework
 
-=item ObjectDB ORM
+=item DBIx-Class
+
+=item MySQL 5+
 
 =back
 
 
 =head3 COMO RODAR A APLICAÇÃO?
 
-Certifique-se de que você tenha a ultima versão do L<Mojolicious> instalada.
+Certifique-se de que você tenha a ultima versão do C<Mojolicious> instalada.
 
-Clone o repositório e entre com os seguintes comandos no terminal/prompt de comandos:
+    cpan Mojolicious
+    
+
+Faça o clone do repositório e entre com os seguintes comandos no terminal/prompt de comandos:
 
     morbo asking/index.pl
+
+
+Isso deverá iniciar o servidor no endereço C<http://localhost:3000/>
 
 
 =head3 AUTHOR
