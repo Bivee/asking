@@ -1,80 +1,75 @@
 package Asking::Controller::Account;
 use Mojo::Base 'Asking::Controller::Base';
 
-use Asking::Model;
-use Asking::Validator;
+use DateTime;
 
-# action /account
-sub index { }
-
-# action /account/signin or /signin
 sub signin {
     my $self = shift;
 
-    my $message;
-    
-    if($self->is_post){
-        my $email = $self->param('email') || undef;
+    if ( $self->is_post ) {
+        my $email    = $self->param('email')     || undef;
+        my $password = $self->param('password')  || undef;
+        my $return   = $self->param('return_to') || undef;
+
+        # check credentials
+        if ( $self->authenticate( $email, $password ) ) {
+            return $self->redirect_to($return || '/');
+        }
+
+        # error
+        return $self->render( message =>
+              { class => 'alert-danger', text => 'Email or pass is wrong!' }, );
+    }
+
+    return $self->render( message => undef, );
+}
+
+sub register {
+    my $self = shift;
+
+    if ( $self->is_post ) {
+        my $name     = $self->param('name')     || undef;
+        my $email    = $self->param('email')    || undef;
         my $password = $self->param('password') || undef;
-        
-        my $model = Asking::Model->load('User');
-        $model->column('email', $email);
-        $model->column('password', $email);
-        
-        my $validator = Asking::Validator->load('User');
-        if($validator->validate($model->to_hash)){
-            $model = $model->find(
-                where   => [email => $email, password => $password],
-                single  => 1
+
+        # check if exists
+        my $user_rs = $self->schema('User');
+        unless ( $user_rs->count( { email => $email, password => $password } ) )
+        {
+            my $user = $user_rs->create( {
+                    name     => $name,
+                    email    => $email,
+                    password => $password,
+                    created  => DateTime->now( time_zone => 'local' ),
+                }
             );
 
             # error
-            unless($model->error){
-                $message = 'Database error!';
-            }
-
-            # user found
-            if($model){
-                $self->session(
-                    'user.uid' => $model->column('id') || 0
-                    'user.name' => $model->column('name') || '',
-                    'user.email' => $model->column('email') || ''
-                );
-
-                return $self->redirect_to('/profile');
-            }
-            else {
-                # user not found
-                $message = 'Email or password incorrect!';
-            }
+            return $self->render(
+                message => { class => 'alert-success', text => 'User has been created!' },
+            ) if $user && $user->in_storage;
         }
         else {
-            $message = $validator->error;
+            # error
+            return $self->render(
+                message => { class => 'alert-success', text => 'User already exists!' },
+            );
         }
+
+        # error
+        return $self->render(
+            message => { class => 'danger', text => 'Email or pass is wrong!' },
+        );
     }
 
-    return $self->render(message => $message);
+    return $self->render(message => undef);
 }
 
-# action /account/signup or /signup
-sub signup { }
+sub signout {
+    my $self = shift;
+    $self->logout;
 
-# action /account/signout or /signout
-sub signout { }
-
-# action /account/change/:token
-sub change { }
-
-# action /account/forgot or /forgot
-sub forgot { }
-
-# action /account/active/:token
-sub active { }
-
-# action /account/edit
-sub edit { }
-
-# action /account/avatar
-sub avatar { }
+    return $self->redirect_to('/');
+}
 
 1;

@@ -1,0 +1,131 @@
+% layout 'default';
+
+% content_for main_menu => begin
+<div class="box well">
+    <blockquote>
+        <h4>User Sign In</h4>
+        <small>Sign In here or create user account.</small>
+    </blockquote>
+    <div class="form">
+        <label><li class="icon-envelope"></li>&nbsp;E-mail</label>
+        <input type="text" />
+        <label><li class="icon-key"></li>&nbsp;Password</label>
+        <input type="password" />
+        <button class="btn btn-danger">Sign In</button>
+        &nbsp;<a href="#">Sign Up Now!</a>
+    </div>
+</div>
+% end
+
+
+<ul class="nav nav-tabs">
+    <li class="active"><a href="#">interesting</a></li>
+    <li><a href="#">last</a></li>
+    <li><a href="#">week</a></li>
+</ul>
+
+<div style="margin-left:20px;">
+    <div class="row well">
+        <div class="span1 text-center">
+            <p style="font-size:32px;" class="text-success">5</p>
+            <small>votes</small>
+        </div>
+        <div class="span1 text-center">
+            <p style="font-size:32px;" class="text-error">5</p>
+            <small>answers</small>
+        </div>
+        <div class="span1 text-center">
+            <p style="font-size:32px;" class="text-warning">25</p>
+            <small>views</small>
+        </div>
+        <div class="span9">
+            <h4><a href="#">EXPORTING A MAP REPORT TO EXCEL OR PDF</a></h4>
+            <span class="label">Lorem</span>
+            <span class="label">Ipsum</span>
+            <span class="label">Dolor</span>
+        </div>
+    </div>
+    <div class="row well">
+        <div class="span1 text-center">
+            <p style="font-size:32px;" class="text-success">5</p>
+            <small>votes</small>
+        </div>
+        <div class="span1 text-center">
+            <p style="font-size:32px;" class="text-error">5</p>
+            <small>answers</small>
+        </div>
+        <div class="span1 text-center">
+            <p style="font-size:32px;" class="text-warning">25</p>
+            <small>views</small>
+        </div>
+        <div class="span9">
+            <h4><a href="#">EXPORTING A MAP REPORT TO EXCEL OR PDF</a></h4>
+            <span class="label">Lorem</span>
+            <span class="label">Ipsum</span>
+            <span class="label">Dolor</span>
+        </div>
+    </div>
+    <div class="row well">
+        <div class="span1 text-center">
+            <p style="font-size:32px;" class="text-success">5</p>
+            <small>votes</small>
+        </div>
+        <div class="span1 text-center">
+            <p style="font-size:32px;" class="text-error">5</p>
+            <small>answers</small>
+        </div>
+        <div class="span1 text-center">
+            <p style="font-size:32px;" class="text-warning">25</p>
+            <small>views</small>
+        </div>
+        <div class="span9">
+            <h4><a href="#">EXPORTING A MAP REPORT TO EXCEL OR PDF</a></h4>
+            <span class="label">Lorem</span>
+            <span class="label">Ipsum</span>
+            <span class="label">Dolor</span>
+        </div>
+    </div>
+    <div class="row well">
+        <div class="span1 text-center">
+            <p style="font-size:32px;" class="text-success">5</p>
+            <small>votes</small>
+        </div>
+        <div class="span1 text-center">
+            <p style="font-size:32px;" class="text-error">5</p>
+            <small>answers</small>
+        </div>
+        <div class="span1 text-center">
+            <p style="font-size:32px;" class="text-warning">25</p>
+            <small>views</small>
+        </div>
+        <div class="span9">
+            <h4><a href="#">EXPORTING A MAP REPORT TO EXCEL OR PDF</a></h4>
+            <span class="label">Lorem</span>
+            <span class="label">Ipsum</span>
+            <span class="label">Dolor</span>
+        </div>
+    </div>
+    <div class="row well">
+        <div class="span1 text-center">
+            <p style="font-size:32px;" class="text-success">5</p>
+            <small>votes</small>
+        </div>
+        <div class="span1 text-center">
+            <p style="font-size:32px;" class="text-error">5</p>
+            <small>answers</small>
+        </div>
+        <div class="span1 text-center">
+            <p style="font-size:32px;" class="text-warning">25</p>
+            <small>views</small>
+        </div>
+        <div class="span9">
+            <h4><a href="#">EXPORTING A MAP REPORT TO EXCEL OR PDF</a></h4>
+            <span class="label">Lorem</span>
+            <span class="label">Ipsum</span>
+            <span class="label">Dolor</span>
+        </div>
+    </div>
+</div>
+
+
+

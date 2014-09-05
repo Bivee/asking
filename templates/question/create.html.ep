@@ -1,0 +1,44 @@
+% layout 'default';
+% title 'Ask a Question';
+
+<div class="row">
+    <div class="col-md-9">
+        <h2>Ask a Question</h2>
+
+        %= form_for '', method => 'POST', class => 'form-horizontal' => begin
+            <div class="form-group">
+                <label for="title">Title</label>
+                %= text_field 'title', id => 'title', class => 'form-control'
+            </div>
+            <div class="form-group">
+                <label for="title">Category</label>
+                <select id="category" name="category" class="form-control">
+                    <option value="0">Select a category</option>
+                    % for my $row (schema('Category')->all) {
+                        <option value="<%= $row->id %>"><%= $row->name %></option>
+                    % }
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="content">What you want to ask?</label>
+                %= text_area 'content', id => 'content', class => 'form-control'
+            </div>
+            <div class="form-group">
+                <label for="content">Tags</label>
+                %= text_field 'tags', id => 'tags', class => 'form-control'
+                <small class="help-block">Add tags separated by comma (,)</small>
+            </div>
+            <div class="form-group">
+                %= submit_button 'Ask a Question', class => 'btn btn-danger'
+            </div>
+        % end
+
+        % if($message){
+            <div class="alert <%= $message->{class} %>">
+                %= $message->{text}
+            </div>
+        % }
+    </div>
+    <div class="col-md-9">
+    </div>
+</div>

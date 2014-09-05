@@ -1,0 +1,28 @@
+% layout 'default';
+% title 'Register a new account';
+
+<h2>Register Page</h2>
+
+%= form_for '', method => 'POST', class => 'form-horizontal' => begin
+    <div class="form-group">
+        <label for="name">Name</label>
+        %= text_field 'name', id => 'name', class => 'form-control'
+    </div>
+    <div class="form-group">
+        <label for="email">E-mail</label>
+        %= text_field 'email', id => 'email', class => 'form-control'
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        %= password_field 'password', id => 'password', class => 'form-control'
+    </div>
+    <div class="form-group">
+        %= submit_button 'Register', class => 'btn btn-danger'
+    </div>
+% end
+
+% if($message){
+    <div class="alert <%= $message->{class} %>">
+        %= $message->{text}
+    </div>
+% }

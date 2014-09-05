@@ -1,0 +1,6 @@
+% layout 'default';
+% title 'Category List';
+
+<h2>Category List</h2>
+
+[[ Category list here ]]

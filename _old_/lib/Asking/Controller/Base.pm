@@ -1,8 +1,6 @@
 package Asking::Controller::Base;
 use Mojo::Base 'Mojolicious::Controller';
 
-use Try::Tiny;
-
 # true if http method is post
 sub is_post {
     return (shift)->req->method eq 'POST' ? 1 : 0;
@@ -14,3 +12,5 @@ sub http_method {
 }
 
 1;
+
+__END__

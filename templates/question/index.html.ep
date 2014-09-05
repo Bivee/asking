@@ -1,0 +1,90 @@
+% layout 'default';
+% title $question? $question->title : undef;
+
+<h2><%= $question->title %></h2>
+
+<div class="row">
+    <div class="col-md-2 text-center">
+        <div style="line-height:30px;">
+            %= link_to '/question/'.$question->id.'/vote/remove', class => "text-danger", title => 'Remove vote to question', 'data-id' => $question->id => begin
+                <i class="fa fa-caret-left fa-2x"></i>
+            % end
+            &nbsp;<span class="text-danger" style="font-size:28px"><%= $question->votes || 0 %></span>&nbsp;
+            %= link_to '/question/'.$question->id.'/vote/add', class => "text-danger", title => 'Add vote to question', 'data-id' => $question->id => begin
+                <i class="fa fa-caret-right fa-2x"></i>
+            % end
+        </div>
+        votes
+    </div>
+    <div class="col-md-7">
+        %= $question->content
+        <br>
+        <small>Asked by <a href="<%= url_for '/user/'.$question->user_id.'/'.string($question->user->name)->slug %>"><%= $question->user->name  %></a> at <%= $question->created %> </small>
+
+        % if(is_user_authenticated){
+            <div class="alert alert-info">
+                Click here to 
+                <a class="text-danger" href="javascript:void(0);" onclick="document.getElementById('answers-panel').style.display='block';">Answer</a>  
+                the question.
+            </div>
+
+            %= form_for '', method => 'POST', class => 'form-horizontal' => begin
+            <div id="answers-panel" class="row" style="display:none;">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="answer">Write your answer:</label>
+                        %= text_area 'answer', id => 'answers', class => 'form-control'
+                    </div>
+                    <div class="form-group">
+                        %= submit_button 'Send the Answer', class => 'btn btn-danger'
+                    </div>
+                </div>
+            </div>
+            % end
+        % } else {
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="alert alert-warning">
+                        You need to <%= link_to '/login?return_to=' . url_for() => begin %>LogIn<% end %> or 
+                        <%= link_to '/register?return_to=' . url_for() => begin %>Create an Account<% end %> 
+                        to answer this question.
+                    </div>
+                </div>
+            </div>
+        % }
+
+        % for my $row ($question->question_answers->all){
+            <div class="row">
+                <div class="col-md-1 text-center">
+                    <i class="fa fa-caret-left"></i>
+                        %= $row->answer->votes
+                    <i class="fa fa-caret-right"></i>
+                    <br>
+                    votes
+                </div>
+                <div class="col-md-11">
+                    %= $row->answer->content
+                    <p><small>By <a href="<%= url_for '/user/'.$row->answer->user->id.'/'.string($row->answer->user->name)->slug %>">
+                        <%= $row->answer->user->name %>
+                    </a></small></p>
+                    <p><a class="btn btn-xs btn-danger" data-id="<%= $row->answer->id %>" href="#">Mark answer as best</a></p>
+                </div>
+            </div>
+        % }
+
+    </div>
+    <div class="col-md-3">
+        <div class="panel panel-default">
+		    <div class="panel-heading">
+			    <h3 class="panel-title">Categories</h3>
+			</div>
+			<div class="list-group">
+                % for my $row (1 .. 15 ){
+                    <a href="#" class="list-group-item">Lorem ipsum dolor <span class="badge"><%= int(rand(50)) %></span></a>
+                % }
+            </div>
+		</div>
+    </div>
+</div>
+
+

@@ -1,0 +1,6 @@
+% layout 'default';
+% title 'Question List';
+
+<h2>Question List</h2>
+
+[[ Question list here ]]
