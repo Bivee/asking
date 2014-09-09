@@ -1,0 +1,21 @@
+
+html, body { margin-top: 27px }
+nav { border-bottom: solid 4px #999999 !important; }
+#wrap { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -60px; }
+#push, #footer { height: 60px; }
+.top-menu { line-height:60px;font-size: 11pt; text-transform: uppercase; }
+#wrap > .container { margin-top: 80px; padding-bottom: 50px; }
+.container .credit { margin: 20px 0; }
+code { font-size: 80%; }
+
+.box { padding: 20px 10px;}
+.top-button { height:40px; }
+
+section.main { margin-top: 40px; }
+
+/** main page **/
+.question-row { margin-bottom: 10px; }
+.question-row h4 { margin:0; padding:0; }
+.num-votes { border:solid 2px orange; }
+.num-answer { border:solid 2px orange; }
+.num-viewed { border:solid 2px orange; }

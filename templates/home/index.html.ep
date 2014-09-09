@@ -12,24 +12,43 @@
 % }
 
 % for my $row (schema('Question')->search(undef, {rows=>10})){
-    <div class="row">
+    <div class="row question-row">
         <div class="col-md-1 text-center">
-                %= $row->answers
+            <div class="num-votes">
+                <strong>
+                    %= '0'
+                </strong>
                 <br>
-                Answers
+                <small>Votes</small>
+            </div>
         </div>
         <div class="col-md-1 text-center">
-                %= $row->viewed
+            <div class="num-answer">
+                <strong>
+                    %= $row->answers
+                </strong>
                 <br>
-                Viewed
+                <small>Answers</small>
+            </div>
+        </div>
+        <div class="col-md-1 text-center">
+            <div class="num-viewed">
+                <strong>
+                    %= $row->viewed
+                </strong>
+                <br>
+                <small>Viewed</small>
+            </div>
         </div>
         <div class="col-md-9">
-            %= link_to '/question/'.$row->id.'/'.string($row->title)->slug => begin
-                %= $row->title
-            % end
-            <br>
-            <small>Asked by <a href="<%= url_for '/user/'.$row->user_id.'/'.string($row->user->name)->slug %>"><%= $row->user->name  %></a> </small>
+            <h4>
+                %= link_to '/question/'.$row->id.'/'.string($row->title)->slug => begin
+                    %= $row->title
+                % end
+            </h4>
+            <small>
+                %== "<a href='/tags/$_' class='label label-danger'>$_</a>&nbsp;" for qw/lorem ipsum dolor sit amet/
+            Asked by <a href="<%= url_for '/user/'.$row->user_id.'/'.string($row->user->name)->slug %>"><%= $row->user->name  %></a> </small>
         </div>
     </div>
 % }
-

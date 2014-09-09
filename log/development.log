@@ -4459,3 +4459,599 @@ Global symbol "$message" requires explicit package name at template account/sign
 [Fri Sep  5 16:48:56 2014] [debug] Rendering cached template "question/index.html.ep".
 [Fri Sep  5 16:48:56 2014] [debug] Rendering cached template "layouts/default.html.ep".
 [Fri Sep  5 16:48:56 2014] [debug] 200 OK (0.149044s, 6.709/s).
+[Mon Sep  8 16:43:44 2014] [info] Listening at "http://*:3000".
+[Mon Sep  8 16:44:24 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 16:44:24 2014] [debug] GET "/".
+[Mon Sep  8 16:44:24 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 16:44:24 2014] [debug] Action not found in controller.
+[Mon Sep  8 16:44:24 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 16:44:25 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 16:44:25 2014] [debug] 200 OK (0.653617s, 1.530/s).
+[Mon Sep  8 16:53:21 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 16:53:21 2014] [debug] GET "/".
+[Mon Sep  8 16:53:21 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 16:53:21 2014] [debug] Action not found in controller.
+[Mon Sep  8 16:53:21 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 16:53:21 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 16:53:21 2014] [debug] 200 OK (0.185902s, 5.379/s).
+[Mon Sep  8 16:53:36 2014] [debug] GET "/".
+[Mon Sep  8 16:53:36 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 16:53:36 2014] [debug] Action not found in controller.
+[Mon Sep  8 16:53:36 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 16:53:36 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 16:53:36 2014] [debug] 200 OK (0.036635s, 27.296/s).
+[Mon Sep  8 16:55:08 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 16:55:08 2014] [debug] GET "/".
+[Mon Sep  8 16:55:08 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 16:55:08 2014] [debug] Action not found in controller.
+[Mon Sep  8 16:55:08 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 16:55:08 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 16:55:08 2014] [debug] 200 OK (0.191762s, 5.215/s).
+[Mon Sep  8 16:55:09 2014] [debug] GET "/".
+[Mon Sep  8 16:55:09 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 16:55:09 2014] [debug] Action not found in controller.
+[Mon Sep  8 16:55:09 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 16:55:09 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 16:55:09 2014] [debug] 200 OK (0.038626s, 25.889/s).
+[Mon Sep  8 16:55:16 2014] [debug] GET "/".
+[Mon Sep  8 16:55:16 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 16:55:16 2014] [debug] Action not found in controller.
+[Mon Sep  8 16:55:16 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 16:55:16 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 16:55:16 2014] [debug] 200 OK (0.036908s, 27.094/s).
+[Mon Sep  8 16:55:17 2014] [debug] GET "/".
+[Mon Sep  8 16:55:17 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 16:55:17 2014] [debug] Action not found in controller.
+[Mon Sep  8 16:55:17 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 16:55:17 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 16:55:17 2014] [debug] 200 OK (0.037109s, 26.948/s).
+[Mon Sep  8 16:55:18 2014] [debug] GET "/".
+[Mon Sep  8 16:55:18 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 16:55:18 2014] [debug] Action not found in controller.
+[Mon Sep  8 16:55:18 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 16:55:18 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 16:55:18 2014] [debug] 200 OK (0.047449s, 21.075/s).
+[Mon Sep  8 16:55:27 2014] [debug] GET "/".
+[Mon Sep  8 16:55:27 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 16:55:27 2014] [debug] Action not found in controller.
+[Mon Sep  8 16:55:27 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 16:55:27 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 16:55:27 2014] [debug] 200 OK (0.030815s, 32.452/s).
+[Mon Sep  8 16:55:31 2014] [debug] GET "/".
+[Mon Sep  8 16:55:31 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 16:55:31 2014] [debug] Action not found in controller.
+[Mon Sep  8 16:55:31 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 16:55:31 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 16:55:31 2014] [debug] 200 OK (0.030646s, 32.631/s).
+[Mon Sep  8 16:57:13 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 16:57:13 2014] [debug] GET "/".
+[Mon Sep  8 16:57:13 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 16:57:13 2014] [debug] Action not found in controller.
+[Mon Sep  8 16:57:13 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 16:57:13 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 16:57:13 2014] [debug] 200 OK (0.189418s, 5.279/s).
+[Mon Sep  8 16:57:16 2014] [debug] GET "/".
+[Mon Sep  8 16:57:16 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 16:57:16 2014] [debug] Action not found in controller.
+[Mon Sep  8 16:57:16 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 16:57:16 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 16:57:16 2014] [debug] 200 OK (0.038536s, 25.950/s).
+[Mon Sep  8 16:57:49 2014] [debug] GET "/".
+[Mon Sep  8 16:57:49 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 16:57:49 2014] [debug] Action not found in controller.
+[Mon Sep  8 16:57:49 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 16:57:49 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 16:57:49 2014] [debug] 200 OK (0.039907s, 25.058/s).
+[Mon Sep  8 16:57:58 2014] [debug] GET "/".
+[Mon Sep  8 16:57:58 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 16:57:58 2014] [debug] Action not found in controller.
+[Mon Sep  8 16:57:58 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 16:57:58 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 16:57:58 2014] [debug] 200 OK (0.038216s, 26.167/s).
+[Mon Sep  8 16:58:03 2014] [debug] GET "/".
+[Mon Sep  8 16:58:03 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 16:58:03 2014] [debug] Action not found in controller.
+[Mon Sep  8 16:58:03 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 16:58:03 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 16:58:03 2014] [debug] 200 OK (0.040120s, 24.925/s).
+[Mon Sep  8 16:59:05 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 16:59:05 2014] [debug] GET "/".
+[Mon Sep  8 16:59:05 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 16:59:05 2014] [debug] Action not found in controller.
+[Mon Sep  8 16:59:05 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 16:59:05 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 16:59:05 2014] [debug] 200 OK (0.178423s, 5.605/s).
+[Mon Sep  8 16:59:07 2014] [debug] GET "/".
+[Mon Sep  8 16:59:07 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 16:59:07 2014] [debug] Action not found in controller.
+[Mon Sep  8 16:59:07 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 16:59:07 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 16:59:07 2014] [debug] 200 OK (0.039310s, 25.439/s).
+[Mon Sep  8 17:00:57 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 17:00:57 2014] [debug] GET "/".
+[Mon Sep  8 17:00:57 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:00:57 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:00:57 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 17:00:57 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 17:00:57 2014] [debug] 200 OK (0.189758s, 5.270/s).
+[Mon Sep  8 17:01:17 2014] [debug] GET "/".
+[Mon Sep  8 17:01:17 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:01:17 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:01:17 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 17:01:18 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 17:01:18 2014] [debug] 200 OK (0.040510s, 24.685/s).
+[Mon Sep  8 17:01:19 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 17:01:19 2014] [debug] GET "/".
+[Mon Sep  8 17:01:19 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:01:19 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:01:19 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 17:01:19 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 17:01:19 2014] [debug] 200 OK (0.187525s, 5.333/s).
+[Mon Sep  8 17:01:31 2014] [debug] GET "/".
+[Mon Sep  8 17:01:31 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:01:31 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:01:31 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 17:01:31 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 17:01:31 2014] [debug] 200 OK (0.036763s, 27.201/s).
+[Mon Sep  8 17:01:34 2014] [debug] GET "/".
+[Mon Sep  8 17:01:34 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:01:34 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:01:34 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 17:01:34 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 17:01:34 2014] [debug] 200 OK (0.037296s, 26.813/s).
+[Mon Sep  8 17:02:19 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 17:02:19 2014] [debug] GET "/".
+[Mon Sep  8 17:02:19 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:02:19 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:02:19 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 17:02:20 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 17:02:20 2014] [debug] 200 OK (0.195262s, 5.121/s).
+[Mon Sep  8 17:02:56 2014] [debug] GET "/".
+[Mon Sep  8 17:02:56 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:02:56 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:02:56 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 17:02:56 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 17:02:56 2014] [debug] 200 OK (0.035656s, 28.046/s).
+[Mon Sep  8 17:02:58 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 17:02:58 2014] [debug] GET "/".
+[Mon Sep  8 17:02:58 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:02:58 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:02:58 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 17:02:58 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 17:02:58 2014] [debug] 200 OK (0.184352s, 5.424/s).
+[Mon Sep  8 17:03:19 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 17:03:19 2014] [debug] GET "/".
+[Mon Sep  8 17:03:19 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:03:19 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:03:19 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 17:03:19 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 17:03:19 2014] [debug] 200 OK (0.181456s, 5.511/s).
+[Mon Sep  8 17:03:21 2014] [debug] GET "/".
+[Mon Sep  8 17:03:21 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:03:21 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:03:21 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 17:03:21 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 17:03:21 2014] [debug] 200 OK (0.039924s, 25.048/s).
+[Mon Sep  8 17:04:40 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 17:04:40 2014] [debug] GET "/".
+[Mon Sep  8 17:04:40 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:04:40 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:04:40 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 17:04:40 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 17:04:40 2014] [debug] 200 OK (0.193683s, 5.163/s).
+[Mon Sep  8 17:04:43 2014] [debug] GET "/".
+[Mon Sep  8 17:04:43 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:04:43 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:04:43 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 17:04:43 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 17:04:43 2014] [debug] 200 OK (0.042742s, 23.396/s).
+[Mon Sep  8 17:05:09 2014] [debug] GET "/".
+[Mon Sep  8 17:05:09 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:05:09 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:05:09 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 17:05:09 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 17:05:09 2014] [debug] 200 OK (0.038679s, 25.854/s).
+[Mon Sep  8 17:06:30 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 17:06:30 2014] [debug] GET "/".
+[Mon Sep  8 17:06:30 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:06:30 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:06:30 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 17:06:30 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 17:06:30 2014] [debug] 200 OK (0.176810s, 5.656/s).
+[Mon Sep  8 17:06:32 2014] [debug] GET "/".
+[Mon Sep  8 17:06:32 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:06:32 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:06:32 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 17:06:32 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 17:06:32 2014] [debug] 200 OK (0.037934s, 26.362/s).
+[Mon Sep  8 17:06:40 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 17:06:40 2014] [debug] GET "/".
+[Mon Sep  8 17:06:40 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:06:40 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:06:40 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 17:06:40 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 17:06:40 2014] [debug] 200 OK (0.187825s, 5.324/s).
+[Mon Sep  8 17:06:42 2014] [debug] GET "/".
+[Mon Sep  8 17:06:42 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:06:42 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:06:42 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 17:06:42 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 17:06:42 2014] [debug] 200 OK (0.036876s, 27.118/s).
+[Mon Sep  8 17:06:43 2014] [debug] GET "/".
+[Mon Sep  8 17:06:43 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:06:43 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:06:43 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 17:06:43 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 17:06:43 2014] [debug] 200 OK (0.049649s, 20.141/s).
+[Mon Sep  8 17:07:20 2014] [debug] GET "/".
+[Mon Sep  8 17:07:20 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:07:20 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:07:20 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 17:07:20 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 17:07:20 2014] [debug] 200 OK (0.037774s, 26.473/s).
+[Mon Sep  8 17:07:22 2014] [debug] GET "/".
+[Mon Sep  8 17:07:22 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:07:22 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:07:22 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 17:07:22 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 17:07:22 2014] [debug] 200 OK (0.037189s, 26.890/s).
+[Mon Sep  8 17:07:23 2014] [debug] GET "/".
+[Mon Sep  8 17:07:23 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:07:23 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:07:23 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 17:07:23 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 17:07:23 2014] [debug] 200 OK (0.045574s, 21.942/s).
+[Mon Sep  8 17:07:58 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 17:07:58 2014] [debug] GET "/".
+[Mon Sep  8 17:07:58 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:07:58 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:07:58 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 17:07:58 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 17:07:58 2014] [debug] 200 OK (0.186290s, 5.368/s).
+[Mon Sep  8 17:10:03 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 17:10:03 2014] [debug] GET "/".
+[Mon Sep  8 17:10:03 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:10:03 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:10:03 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 17:10:03 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 17:10:03 2014] [debug] 200 OK (0.191788s, 5.214/s).
+[Mon Sep  8 17:10:08 2014] [debug] GET "/".
+[Mon Sep  8 17:10:08 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:10:08 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:10:08 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 17:10:08 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 17:10:08 2014] [debug] 200 OK (0.048058s, 20.808/s).
+[Mon Sep  8 17:10:36 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 17:10:36 2014] [debug] GET "/".
+[Mon Sep  8 17:10:36 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:10:36 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:10:36 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 17:10:36 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 17:10:36 2014] [debug] 200 OK (0.185802s, 5.382/s).
+[Mon Sep  8 17:11:26 2014] [debug] GET "/".
+[Mon Sep  8 17:11:26 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:11:26 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:11:26 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 17:11:26 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 17:11:26 2014] [debug] 200 OK (0.042225s, 23.683/s).
+[Mon Sep  8 17:11:28 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 17:11:28 2014] [debug] GET "/".
+[Mon Sep  8 17:11:28 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:11:28 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:11:28 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 17:11:28 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 17:11:28 2014] [debug] 200 OK (0.180915s, 5.527/s).
+[Mon Sep  8 17:11:38 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 17:11:38 2014] [debug] GET "/".
+[Mon Sep  8 17:11:38 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:11:38 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:11:38 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 17:11:38 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 17:11:38 2014] [debug] 200 OK (0.177194s, 5.644/s).
+[Mon Sep  8 17:12:13 2014] [debug] GET "/question/7/conceicao-coracao-do-cao-ladao".
+[Mon Sep  8 17:12:13 2014] [debug] Routing to controller "Asking::Controller::Question" and action "index".
+[Mon Sep  8 17:12:13 2014] [debug] Rendering template "question/index.html.ep".
+[Mon Sep  8 17:12:13 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 17:12:13 2014] [debug] 200 OK (0.404392s, 2.473/s).
+[Mon Sep  8 17:12:49 2014] [debug] GET "/questions".
+[Mon Sep  8 17:12:49 2014] [debug] Routing to controller "Asking::Controller::Question" and action "list".
+[Mon Sep  8 17:12:49 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:12:49 2014] [debug] Rendering template "question/list.html.ep".
+[Mon Sep  8 17:12:49 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 17:12:49 2014] [debug] 200 OK (0.042642s, 23.451/s).
+[Mon Sep  8 17:12:51 2014] [debug] GET "/".
+[Mon Sep  8 17:12:51 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:12:51 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:12:51 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 17:12:51 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 17:12:51 2014] [debug] 200 OK (0.034418s, 29.055/s).
+[Mon Sep  8 17:13:44 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 17:13:44 2014] [debug] GET "/".
+[Mon Sep  8 17:13:44 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:13:44 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:13:44 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 17:13:44 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 17:13:44 2014] [debug] 200 OK (0.187263s, 5.340/s).
+[Mon Sep  8 17:15:43 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 17:15:43 2014] [debug] GET "/".
+[Mon Sep  8 17:15:43 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:15:43 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:15:43 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 17:15:44 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 17:15:44 2014] [debug] 200 OK (0.192756s, 5.188/s).
+[Mon Sep  8 17:15:54 2014] [debug] GET "/user/3/joe-doe".
+[Mon Sep  8 17:15:54 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep  8 17:15:54 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Sep  8 17:15:54 2014] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Mon Sep  8 17:15:54 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Sep  8 17:15:54 2014] [debug] 404 Not Found (0.048953s, 20.428/s).
+[Mon Sep  8 17:17:20 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 17:17:20 2014] [debug] GET "/user/3/joe-doe".
+[Mon Sep  8 17:17:20 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep  8 17:17:20 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Sep  8 17:17:20 2014] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Mon Sep  8 17:17:20 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Sep  8 17:17:20 2014] [debug] 404 Not Found (0.047563s, 21.025/s).
+[Mon Sep  8 17:17:22 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 17:17:22 2014] [debug] GET "/user/3/joe-doe".
+[Mon Sep  8 17:17:22 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep  8 17:17:22 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Sep  8 17:17:22 2014] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Mon Sep  8 17:17:22 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Sep  8 17:17:22 2014] [debug] 404 Not Found (0.046999s, 21.277/s).
+[Mon Sep  8 17:17:23 2014] [debug] GET "/user/3/joe-doe".
+[Mon Sep  8 17:17:23 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep  8 17:17:23 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Sep  8 17:17:23 2014] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Mon Sep  8 17:17:23 2014] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Sep  8 17:17:23 2014] [debug] 404 Not Found (0.016810s, 59.488/s).
+[Mon Sep  8 17:17:23 2014] [debug] GET "/user/3/joe-doe".
+[Mon Sep  8 17:17:23 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep  8 17:17:23 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Sep  8 17:17:23 2014] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Mon Sep  8 17:17:23 2014] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Sep  8 17:17:23 2014] [debug] 404 Not Found (0.012033s, 83.105/s).
+[Mon Sep  8 17:17:24 2014] [debug] GET "/user/3/joe-doe".
+[Mon Sep  8 17:17:24 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep  8 17:17:24 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Sep  8 17:17:24 2014] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Mon Sep  8 17:17:24 2014] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Sep  8 17:17:24 2014] [debug] 404 Not Found (0.012193s, 82.014/s).
+[Mon Sep  8 17:18:18 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 17:18:18 2014] [debug] GET "/user/3/joe-doe".
+[Mon Sep  8 17:18:18 2014] [debug] Routing to controller "Asking::Controller::Profile" and action "index".
+[Mon Sep  8 17:18:18 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:18:18 2014] [debug] Rendering template "profile/index.html.ep".
+[Mon Sep  8 17:18:18 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 17:18:18 2014] [debug] 200 OK (0.059787s, 16.726/s).
+[Mon Sep  8 17:19:00 2014] [debug] GET "/".
+[Mon Sep  8 17:19:00 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 17:19:00 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:19:00 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 17:19:00 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 17:19:00 2014] [debug] 200 OK (0.202640s, 4.935/s).
+[Mon Sep  8 17:19:05 2014] [debug] GET "/user/1/anonymous".
+[Mon Sep  8 17:19:05 2014] [debug] Routing to controller "Asking::Controller::Profile" and action "index".
+[Mon Sep  8 17:19:05 2014] [debug] Action not found in controller.
+[Mon Sep  8 17:19:05 2014] [debug] Rendering cached template "profile/index.html.ep".
+[Mon Sep  8 17:19:05 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 17:19:05 2014] [debug] 200 OK (0.003628s, 275.634/s).
+[Mon Sep  8 17:24:05 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 17:24:05 2014] [debug] GET "/user/1/anonymous".
+[Mon Sep  8 17:24:05 2014] [debug] Routing to controller "Asking::Controller::Profile" and action "index".
+[Mon Sep  8 17:24:07 2014] [debug] Rendering template "profile/index.html.ep".
+[Mon Sep  8 17:24:07 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 17:24:07 2014] [debug] 200 OK (1.876827s, 0.533/s).
+[Mon Sep  8 17:24:15 2014] [debug] GET "/user/1/anonymous".
+[Mon Sep  8 17:24:15 2014] [debug] Routing to controller "Asking::Controller::Profile" and action "index".
+[Mon Sep  8 17:24:15 2014] [debug] Rendering cached template "profile/index.html.ep".
+[Mon Sep  8 17:24:15 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 17:24:15 2014] [debug] 200 OK (0.101625s, 9.840/s).
+[Mon Sep  8 18:01:49 2014] [info] Listening at "http://*:3000".
+[Mon Sep  8 18:03:13 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 18:03:13 2014] [debug] GET "/".
+[Mon Sep  8 18:03:13 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 18:03:13 2014] [debug] Action not found in controller.
+[Mon Sep  8 18:03:13 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 18:03:14 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 18:03:14 2014] [debug] 200 OK (0.762155s, 1.312/s).
+[Mon Sep  8 18:06:07 2014] [debug] GET "/".
+[Mon Sep  8 18:06:07 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 18:06:07 2014] [debug] Action not found in controller.
+[Mon Sep  8 18:06:07 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 18:06:07 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 18:06:07 2014] [debug] 200 OK (0.044820s, 22.311/s).
+[Mon Sep  8 18:06:33 2014] [debug] GET "/question/3/test".
+[Mon Sep  8 18:06:34 2014] [debug] Routing to controller "Asking::Controller::Question" and action "index".
+[Mon Sep  8 18:06:34 2014] [debug] Rendering template "question/index.html.ep".
+[Mon Sep  8 18:06:34 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 18:06:34 2014] [debug] 200 OK (1.062792s, 0.941/s).
+[Mon Sep  8 18:09:43 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 18:09:43 2014] [debug] GET "/".
+[Mon Sep  8 18:09:43 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 18:09:43 2014] [debug] Action not found in controller.
+[Mon Sep  8 18:09:43 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 18:09:43 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 18:09:43 2014] [debug] 200 OK (0.191274s, 5.228/s).
+[Mon Sep  8 18:09:57 2014] [debug] GET "/".
+[Mon Sep  8 18:09:57 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 18:09:57 2014] [debug] Action not found in controller.
+[Mon Sep  8 18:09:57 2014] [debug] Rendering cached template "home/index.html.ep".
+[Mon Sep  8 18:09:57 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 18:09:57 2014] [debug] 200 OK (0.036788s, 27.183/s).
+[Mon Sep  8 18:09:58 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 18:10:17 2014] [debug] GET "/".
+[Mon Sep  8 18:10:17 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 18:10:17 2014] [debug] Action not found in controller.
+[Mon Sep  8 18:10:17 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 18:10:17 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 18:10:17 2014] [debug] 200 OK (0.187061s, 5.346/s).
+[Mon Sep  8 18:10:54 2014] [debug] GET "/question/6/lorem-ipsum-dolor-sit-amet".
+[Mon Sep  8 18:10:54 2014] [debug] Routing to controller "Asking::Controller::Question" and action "index".
+[Mon Sep  8 18:10:54 2014] [debug] Rendering template "question/index.html.ep".
+[Mon Sep  8 18:10:55 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 18:10:55 2014] [debug] 200 OK (0.247136s, 4.046/s).
+[Mon Sep  8 18:11:00 2014] [debug] GET "/question/6/vote/add".
+[Mon Sep  8 18:11:00 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep  8 18:11:00 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Sep  8 18:11:00 2014] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Mon Sep  8 18:11:00 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Sep  8 18:11:00 2014] [debug] 404 Not Found (0.054967s, 18.193/s).
+[Mon Sep  8 18:11:14 2014] [debug] GET "/ask".
+[Mon Sep  8 18:11:14 2014] [debug] Routing to controller "Asking::Controller::Question" and action "create".
+[Mon Sep  8 18:11:14 2014] [debug] Rendering template "question/create.html.ep".
+[Mon Sep  8 18:11:14 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 18:11:14 2014] [debug] 200 OK (0.045489s, 21.983/s).
+[Mon Sep  8 18:16:01 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 18:16:01 2014] [debug] GET "/ask".
+[Mon Sep  8 18:16:01 2014] [debug] Routing to controller "Asking::Controller::Question" and action "create".
+[Mon Sep  8 18:16:01 2014] [debug] Rendering template "question/create.html.ep".
+[Mon Sep  8 18:16:01 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 18:16:01 2014] [debug] 200 OK (0.284428s, 3.516/s).
+[Mon Sep  8 18:17:31 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 18:17:31 2014] [debug] POST "/ask".
+[Mon Sep  8 18:17:31 2014] [debug] Routing to controller "Asking::Controller::Question" and action "create".
+[Mon Sep  8 18:17:31 2014] [error] DBIx::Class::Row::new(): No such column 'question_categories' on Asking::Schema::Result::Question at /home/dvinciguerra/Desktop/asking/lib/Asking/Controller/Question.pm line 59
+
+[Mon Sep  8 18:17:31 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep  8 18:17:31 2014] [debug] Template "exception.html.ep" not found.
+[Mon Sep  8 18:17:31 2014] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Mon Sep  8 18:17:31 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Sep  8 18:17:31 2014] [debug] 500 Internal Server Error (0.391096s, 2.557/s).
+[Mon Sep  8 18:21:50 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 18:21:50 2014] [debug] POST "/ask".
+[Mon Sep  8 18:21:51 2014] [debug] Routing to controller "Asking::Controller::Question" and action "create".
+[Mon Sep  8 18:21:51 2014] [debug] Rendering template "question/create.html.ep".
+[Mon Sep  8 18:21:51 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 18:21:51 2014] [debug] 200 OK (0.518427s, 1.929/s).
+[Mon Sep  8 18:22:32 2014] [debug] GET "/".
+[Mon Sep  8 18:22:32 2014] [debug] Routing to controller "Asking::Controller::Home" and action "index".
+[Mon Sep  8 18:22:32 2014] [debug] Action not found in controller.
+[Mon Sep  8 18:22:32 2014] [debug] Rendering template "home/index.html.ep".
+[Mon Sep  8 18:22:32 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 18:22:32 2014] [debug] 200 OK (0.059907s, 16.693/s).
+[Mon Sep  8 18:22:37 2014] [debug] GET "/question/10/test-of-love".
+[Mon Sep  8 18:22:37 2014] [debug] Routing to controller "Asking::Controller::Question" and action "index".
+[Mon Sep  8 18:22:37 2014] [debug] Rendering template "question/index.html.ep".
+[Mon Sep  8 18:22:37 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 18:22:37 2014] [debug] 200 OK (0.080320s, 12.450/s).
+[Mon Sep  8 18:22:43 2014] [debug] GET "/login".
+[Mon Sep  8 18:22:44 2014] [debug] Routing to controller "Asking::Controller::Account" and action "signin".
+[Mon Sep  8 18:22:44 2014] [debug] Rendering template "account/signin.html.ep".
+[Mon Sep  8 18:22:44 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 18:22:44 2014] [debug] 200 OK (0.065289s, 15.317/s).
+[Mon Sep  8 18:22:50 2014] [debug] POST "/login".
+[Mon Sep  8 18:22:50 2014] [debug] Routing to controller "Asking::Controller::Account" and action "signin".
+[Mon Sep  8 18:22:50 2014] [debug] Rendering cached template "account/signin.html.ep".
+[Mon Sep  8 18:22:50 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 18:22:50 2014] [debug] 200 OK (0.113250s, 8.830/s).
+[Mon Sep  8 18:22:55 2014] [debug] POST "/login".
+[Mon Sep  8 18:22:55 2014] [debug] Routing to controller "Asking::Controller::Account" and action "signin".
+[Mon Sep  8 18:22:55 2014] [debug] 302 Found (0.011317s, 88.363/s).
+[Mon Sep  8 18:22:55 2014] [debug] GET "/question/10/test-of-love".
+[Mon Sep  8 18:22:55 2014] [debug] Routing to controller "Asking::Controller::Question" and action "index".
+[Mon Sep  8 18:22:55 2014] [debug] Rendering template "question/index.html.ep".
+[Mon Sep  8 18:22:55 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 18:22:55 2014] [debug] 200 OK (0.124954s, 8.003/s).
+[Mon Sep  8 18:23:13 2014] [debug] POST "/question/10/test-of-love".
+[Mon Sep  8 18:23:13 2014] [debug] Routing to controller "Asking::Controller::Question" and action "index".
+[Mon Sep  8 18:23:13 2014] [debug] 302 Found (0.257763s, 3.880/s).
+[Mon Sep  8 18:23:13 2014] [debug] GET "/question/10/test-of-love".
+[Mon Sep  8 18:23:13 2014] [debug] Routing to controller "Asking::Controller::Question" and action "index".
+[Mon Sep  8 18:23:13 2014] [debug] Rendering cached template "question/index.html.ep".
+[Mon Sep  8 18:23:13 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 18:23:13 2014] [debug] 200 OK (0.089392s, 11.187/s).
+[Mon Sep  8 18:23:16 2014] [debug] GET "/question/10/vote/add".
+[Mon Sep  8 18:23:16 2014] [debug] Routing to controller "Asking::Controller::Question" and action "vote_add".
+[Mon Sep  8 18:23:17 2014] [debug] 302 Found (0.091800s, 10.893/s).
+[Mon Sep  8 18:23:17 2014] [debug] GET "/question/10/test-of-love".
+[Mon Sep  8 18:23:17 2014] [debug] Routing to controller "Asking::Controller::Question" and action "index".
+[Mon Sep  8 18:23:17 2014] [debug] Rendering cached template "question/index.html.ep".
+[Mon Sep  8 18:23:17 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 18:23:17 2014] [debug] 200 OK (0.103127s, 9.697/s).
+[Mon Sep  8 18:35:59 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 18:35:59 2014] [debug] GET "/ask".
+[Mon Sep  8 18:36:00 2014] [debug] Routing to controller "Asking::Controller::Question" and action "create".
+[Mon Sep  8 18:36:00 2014] [debug] Rendering template "question/create.html.ep".
+[Mon Sep  8 18:36:00 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 18:36:00 2014] [debug] 200 OK (0.142507s, 7.017/s).
+[Mon Sep  8 18:36:27 2014] [debug] GET "/ask".
+[Mon Sep  8 18:36:27 2014] [debug] Routing to controller "Asking::Controller::Question" and action "create".
+[Mon Sep  8 18:36:27 2014] [debug] Rendering cached template "question/create.html.ep".
+[Mon Sep  8 18:36:27 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 18:36:27 2014] [debug] 200 OK (0.013805s, 72.438/s).
+[Mon Sep  8 18:36:37 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 18:36:38 2014] [debug] GET "/ask".
+[Mon Sep  8 18:36:38 2014] [debug] Routing to controller "Asking::Controller::Question" and action "create".
+[Mon Sep  8 18:36:38 2014] [debug] Rendering template "question/create.html.ep".
+[Mon Sep  8 18:36:38 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 18:36:38 2014] [debug] 200 OK (0.138824s, 7.203/s).
+[Mon Sep  8 18:37:29 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 18:37:29 2014] [debug] GET "/ask".
+[Mon Sep  8 18:37:29 2014] [debug] Routing to controller "Asking::Controller::Question" and action "create".
+[Mon Sep  8 18:37:29 2014] [debug] Rendering template "question/create.html.ep".
+[Mon Sep  8 18:37:29 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 18:37:29 2014] [debug] 200 OK (0.137846s, 7.254/s).
+[Mon Sep  8 18:38:04 2014] [debug] GET "/ask".
+[Mon Sep  8 18:38:04 2014] [debug] Routing to controller "Asking::Controller::Question" and action "create".
+[Mon Sep  8 18:38:04 2014] [debug] Rendering cached template "question/create.html.ep".
+[Mon Sep  8 18:38:04 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 18:38:04 2014] [debug] 200 OK (0.011610s, 86.133/s).
+[Mon Sep  8 18:38:46 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 18:38:46 2014] [debug] GET "/ask".
+[Mon Sep  8 18:38:46 2014] [debug] Routing to controller "Asking::Controller::Question" and action "create".
+[Mon Sep  8 18:38:46 2014] [debug] Rendering template "question/create.html.ep".
+[Mon Sep  8 18:38:46 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 18:38:46 2014] [debug] 200 OK (0.143902s, 6.949/s).
+[Mon Sep  8 18:38:47 2014] [debug] GET "/js/skins/lightgray/skin.min.css".
+[Mon Sep  8 18:38:47 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep  8 18:38:47 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Sep  8 18:38:47 2014] [debug] Rendering inline template "8122878e3bc1034543706fb58b4de464".
+[Mon Sep  8 18:38:47 2014] [debug] Rendering inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Sep  8 18:38:47 2014] [debug] 404 Not Found (0.051752s, 19.323/s).
+[Mon Sep  8 18:38:47 2014] [debug] GET "/js/skins/lightgray/content.min.css".
+[Mon Sep  8 18:38:47 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep  8 18:38:47 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Sep  8 18:38:47 2014] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Mon Sep  8 18:38:47 2014] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Sep  8 18:38:47 2014] [debug] 404 Not Found (0.019097s, 52.364/s).
+[Mon Sep  8 18:38:48 2014] [debug] GET "/ask".
+[Mon Sep  8 18:38:48 2014] [debug] Routing to controller "Asking::Controller::Question" and action "create".
+[Mon Sep  8 18:38:48 2014] [debug] Rendering cached template "question/create.html.ep".
+[Mon Sep  8 18:38:48 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 18:38:48 2014] [debug] 200 OK (0.013227s, 75.603/s).
+[Mon Sep  8 18:38:49 2014] [debug] GET "/js/skins/lightgray/skin.min.css".
+[Mon Sep  8 18:38:49 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep  8 18:38:49 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Sep  8 18:38:49 2014] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Mon Sep  8 18:38:49 2014] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Sep  8 18:38:49 2014] [debug] 404 Not Found (0.018709s, 53.450/s).
+[Mon Sep  8 18:38:49 2014] [debug] GET "/js/skins/lightgray/content.min.css".
+[Mon Sep  8 18:38:49 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep  8 18:38:49 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Sep  8 18:38:49 2014] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Mon Sep  8 18:38:49 2014] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Sep  8 18:38:49 2014] [debug] 404 Not Found (0.018776s, 53.259/s).
+[Mon Sep  8 18:39:00 2014] [debug] GET "/ask".
+[Mon Sep  8 18:39:00 2014] [debug] Routing to controller "Asking::Controller::Question" and action "create".
+[Mon Sep  8 18:39:00 2014] [debug] Rendering cached template "question/create.html.ep".
+[Mon Sep  8 18:39:00 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Sep  8 18:39:00 2014] [debug] 200 OK (0.009171s, 109.039/s).
+[Mon Sep  8 18:39:01 2014] [debug] GET "/js/skins/lightgray/skin.min.css".
+[Mon Sep  8 18:39:01 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep  8 18:39:01 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Sep  8 18:39:01 2014] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Mon Sep  8 18:39:01 2014] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Sep  8 18:39:01 2014] [debug] 404 Not Found (0.018638s, 53.654/s).
+[Mon Sep  8 18:39:01 2014] [debug] GET "/js/skins/lightgray/content.min.css".
+[Mon Sep  8 18:39:01 2014] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep  8 18:39:01 2014] [debug] Template "not_found.html.ep" not found.
+[Mon Sep  8 18:39:01 2014] [debug] Rendering cached inline template "8122878e3bc1034543706fb58b4de464".
+[Mon Sep  8 18:39:01 2014] [debug] Rendering cached inline template "4fcf2af99f1803a7a26c2e9b04430f8c".
+[Mon Sep  8 18:39:01 2014] [debug] 404 Not Found (0.018553s, 53.900/s).
+[Mon Sep  8 18:39:22 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep  8 18:39:22 2014] [debug] GET "/ask".
+[Mon Sep  8 18:39:22 2014] [debug] Routing to controller "Asking::Controller::Question" and action "create".
+[Mon Sep  8 18:39:22 2014] [debug] Rendering template "question/create.html.ep".
+[Mon Sep  8 18:39:22 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep  8 18:39:22 2014] [debug] 200 OK (0.136121s, 7.346/s).

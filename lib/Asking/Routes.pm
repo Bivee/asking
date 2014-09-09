@@ -18,7 +18,7 @@ sub load {
       ->to( controller => 'Account', action => 'register' );
 
     # profile routes
-    $route->any('/profile')->over( authenticated => 1 )
+    $route->any('/user/:id/:slug')#->over( authenticated => 1 )
       ->to( controller => 'Profile', action => 'index' );
 
     # question routes

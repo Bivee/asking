@@ -1,30 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-<script src="//code.jquery.com/jquery.min.js"></script>
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-  <meta charset="utf-8">
-  <title><%= title || 'Bivee Asking' %></title>
+    <meta charset="utf-8">
+    <title><%= title || 'Bivee Asking' %></title>
 
-    <style type="text/css">
-        html, body { margin-top: 27px }
-        nav { border-bottom: solid 4px #999999 !important; }
-        #wrap { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -60px; }
-        #push, #footer { height: 60px; }
-        .top-menu { line-height:60px;font-size: 11pt; text-transform: uppercase; }
-        #wrap > .container { margin-top: 80px; padding-bottom: 50px; }
-        .container .credit { margin: 20px 0; }
-        code { font-size: 80%; }
-        
-        .box { padding: 20px 10px;}
-        .top-button { height:40px; }
-    </style>
+    %= stylesheet '/css/bootstrap.min.css'
+    %= stylesheet '/css/style.css'
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+    %= javascript '/js/jquery.min.js'
+    %= javascript '/js/bootstrap.min.js'
 
 </head>
 <body>
 
+<section class="header">
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -51,17 +41,8 @@
             </div>
         </div>
     </nav>
+</section>    
 
-    <!-- div class="top-bar" style="background-color:#ccc;height:60px;">
-        <div class="row">
-            <div class="col-md-6">
-                <input class="form-control" type="text">
-            </div>
-            <div class="col-md-6">
-                <p class="pull-right">Hi Joe Doe, Logout</p>
-            </div>
-        </div>
-    </div -->
 
     <div class="container">
         <section class="main">

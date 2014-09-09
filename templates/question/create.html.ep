@@ -42,3 +42,20 @@
     <div class="col-md-9">
     </div>
 </div>
+
+
+%= javascript '//tinymce.cachefly.net/4.1/tinymce.min.js'
+
+%= javascript begin 
+    $(function(){
+        // configure rich textarea
+        tinymce.init({
+            selector:'textarea',
+            menubar: false,
+            toolbar: [
+                "undo redo | bold italic | alignleft aligncenter alignright"
+            ]
+        });
+    });
+% end
+

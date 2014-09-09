@@ -54,7 +54,7 @@ sub create {
 
         my $title       = $self->param('title')     || undef;
         my $content     = $self->param('content')   || undef; 
-        my $category    = $self->param('category')  || undef;
+        my $category    = $self->param('category')  || 0;
 
         my $question = $question_rs->create({
             title   => $title,
@@ -64,19 +64,26 @@ sub create {
         });
 
         # add category
-        if($question){
-            $self->schema('QuestionCategory')->create({
-                question_id => $question->id,
-                category_id => $category,
+        if($question && $question->in_storage){
+
+            my $question_category = $question->add_to_question_categories({
+                category_id => $category
             });
 
             # success
+            if($question_category && $question_category->in_storage ){
+                return $self->render(
+                    message => {class=>'alert-success', text=>'Question has been created!'}
+                );
+            }
+
+            # error adding question category
             return $self->render(
-                message => {class=>'alert-success', text=>'Question has been created!'}
+                message => {class=>'alert-danger', text=>'Error adding question to category!'}
             );
         }
     
-        # error
+        # error adding question
         return $self->render(
             message => {class=>'alert-danger', text=>'Error saving your question!'}
         );
