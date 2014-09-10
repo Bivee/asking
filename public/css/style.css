@@ -18,7 +18,7 @@ code { font-size: 80%; }
 
 hr {
 	margin-top: 10px;
-	margin-bottom: 15px;
+	margin-bottom: 17px;
 	border-top: 1px solid #ddd;
 }
 
@@ -32,14 +32,14 @@ footer{
 .question-row h4 { margin:0; padding:0; font-size: 17px; }
 .num-boxes{
 	border-right: 1px solid #eee;
-	padding-right: 5px;
+	padding-right: 4px;
 }
 .num-box{
 	float: left;
-	padding: 5px;
-	width: 47px;
+	padding: 4px;
+	width: 46px;
 	height: 55px;
-	margin-right: 8px;
+	margin-right: 7px;
 	font-size: 12px;
 	border: solid 1px #ddd;
 	_border-left: solid 1px #ccc;
@@ -71,4 +71,8 @@ footer{
 	text-decoration: none;
 	color: #664c1e;
 	background-color: #ffe0a9;
-};
+}
+
+.clearfix {
+    clear: both;
+}
