@@ -51,6 +51,7 @@
     </div>
 
     <footer class="text-center">
+        <hr>
         <small>Bivee Asking is a Open Source Q&A Platform build by Bivee company.</small>
         <p><a href="http://bivee.com.br">Bivee</a></p>
     </footer>

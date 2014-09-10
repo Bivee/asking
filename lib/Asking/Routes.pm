@@ -43,7 +43,7 @@ sub load {
     $route->any('/ask')#->over( authenticated => 1 )
       ->to( controller => 'Question', action => 'create' );
 
-    # really!?
+    # really!? ehe
     #$route->any('/:controller/:action/:id')
     #  ->to( controller => 'Home', action => 'index', id => 0 );
 

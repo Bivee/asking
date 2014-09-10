@@ -10,45 +10,51 @@
     </div>
 </div>
 % }
-
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <h4>Newest questions</h4>
 % for my $row (schema('Question')->search(undef, {rows=>10})){
-    <div class="row question-row">
-        <div class="col-md-1 text-center">
-            <div class="num-votes">
-                <strong>
-                    %= '0'
-                </strong>
-                <br>
-                <small>Votes</small>
+        <div class="row question-row">
+            <hr>
+            <div class="col-md-3 num-boxes text-center">
+                <a href="<%='/question/'.$row->id.'/'.string($row->title)->slug%>" class="no-link">
+                    <div class="num-box num-votes">
+                        <strong>
+                            %= '0'
+                        </strong>
+                        <br>
+                        <small>Votes</small>
+                    </div>
+                    <div class="num-box num-answer <%=$row->answers ? 'num-answer-active' : ''%>">
+                        <strong>
+                            %= $row->answers
+                        </strong>
+                        <br>
+                        <small>Answers</small>
+                    </div>
+                     <div class="num-box num-viewed hidden-xs hidden-sm">
+                        <strong>
+                            %= $row->viewed
+                        </strong>
+                        <br>
+                        <small>Viewed</small>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-9">
+                <h4>
+                    %= link_to '/question/'.$row->id.'/'.string($row->title)->slug => begin
+                        %= $row->title
+                    % end
+                </h4>
+            </div>
+            <div class="col-md-9 col-xs-12 question-info">
+                            %== "<a href='/tags/$_' class='tag-big'>$_</a>&nbsp;" for qw/lorem ipsum dolor sit amet/
+                    <small>                                
+                        <span class="hidden-xs">Asked</span> by <a href="<%= url_for '/user/'.$row->user_id.'/'.string($row->user->name)->slug %>"><%= $row->user->name  %></a>
+                    </small>
             </div>
         </div>
-        <div class="col-md-1 text-center">
-            <div class="num-answer">
-                <strong>
-                    %= $row->answers
-                </strong>
-                <br>
-                <small>Answers</small>
-            </div>
-        </div>
-        <div class="col-md-1 text-center">
-            <div class="num-viewed">
-                <strong>
-                    %= $row->viewed
-                </strong>
-                <br>
-                <small>Viewed</small>
-            </div>
-        </div>
-        <div class="col-md-9">
-            <h4>
-                %= link_to '/question/'.$row->id.'/'.string($row->title)->slug => begin
-                    %= $row->title
-                % end
-            </h4>
-            <small>
-                %== "<a href='/tags/$_' class='label label-danger'>$_</a>&nbsp;" for qw/lorem ipsum dolor sit amet/
-            Asked by <a href="<%= url_for '/user/'.$row->user_id.'/'.string($row->user->name)->slug %>"><%= $row->user->name  %></a> </small>
-        </div>
-    </div>
 % }
+    </div>
+</div>

@@ -17,7 +17,7 @@
         votes
     </div>
     <div class="col-md-7">
-        %= $question->content
+        %== $question->content
         <br>
         <small>Asked by <a href="<%= url_for '/user/'.$question->user_id.'/'.string($question->user->name)->slug %>"><%= $question->user->name  %></a> at <%= $question->created %> </small>
 

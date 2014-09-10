@@ -9,7 +9,7 @@ Este projeto visa criar uma aplicação web aberta e livre para que pessoas e em
 e criar suas proprias bases de conhecimento baseando-se no modelo de perguntas e respostas.
 
 
-=head3 POR QUE?
+=head3 POR QUÊ?
 
 Este tipo de software é de grande utilidade para a criação de bases de conhecimento, 
 suporte para empresas, produtos e projetos. Como perl é uma linguagem simples e presenta na maior
@@ -55,7 +55,7 @@ Daniel Vinciguerra <daniel.vinciguerra at bivee.com.br>
 
 =head3 COPYRIGHT AND LICENSE
 
-2013 (c) Bivee. All rights reserved.
+2013 - 2014 (c) Bivee. All rights reserved.
 
 This is free software; you can redistribute it and/or modify it under the same terms as 
 the Perl 5 programming language system itself.
