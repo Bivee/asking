@@ -1,60 +1,73 @@
 % layout 'default';
-% title 'Welcome to the Asking';
+
+%
+
+<div class="col-md-9">
+  <h3>Last Questions</h3>
+
+  % for my $row (schema('Question')->search(undef, {rows=>10})){
+    <div class="row question-row">
+      <hr>
+      <div class="col-md-4 num-boxes text-center">
+        <a href="<%='/question/'.$row->id.'/'.string($row->title)->slug%>" class="no-link">
+          <div class="col-md-4 num-box num-votes">
+            <p><%= '0' %></p>
+            <small>Votes</small>
+          </div>
+          <div class="col-md-4 num-box num-answer num-answer-active">
+            <p><%= $row->answers %></p>
+            <small>Answers</small>
+          </div>
+          <div class="col-md-4 num-box num-viewed hidden-xs">
+            <p><%= $row->viewed %></p>
+            <small>Viewed</small>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-8">
+        <h4><%= link_to '/question/'.$row->id.'/'.string($row->title)->slug => begin %>
+          <%= $row->title %>
+        <% end %></h4>
+        
+        % for my $tag (qw/lorem ipsum dolor sit amet/){  
+        <span class="label label-default"><%= $tag %></span>&nbsp;
+        % }
+        <small>                                
+          <span class="hidden-xs">Asked</span> by 
+          <% link_to '/user/'.$row->user_id.'/'.string($row->user->name)->slug => begin %>">
+            <%= $row->user->name  %>
+          <% end %>
+        </small>
+      </div>
+    </div>
+  % }
+
+</div>
+<div class="col-md-3">
+  <div class="col-md-12">
+    <h3>Top Questions</h3>
+    <div class="list-group">
+      <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+      <a href="#" class="list-group-item">Morbi leo risus</a>
+      <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+      <a href="#" class="list-group-item">Vestibulum at eros</a>
+    </div>
+  </div>
+  <div class="col-md-12">
+    <h3>Recent tags</h3>
+    <a class="btn btn-warning btn-xs">lorem</a>
+    <a class="btn btn-warning btn-xs">lorem</a>
+    <a class="btn btn-warning btn-xs">lorem</a>
+    <a class="btn btn-warning btn-xs">lorem</a>
+    <a class="btn btn-warning btn-xs">lorem</a>
+    <a class="btn btn-warning btn-xs">lorem</a>
+    <a class="btn btn-warning btn-xs">lorem</a>
+    <a class="btn btn-warning btn-xs">lorem</a>
+    <a class="btn btn-warning btn-xs">lorem</a>
+    <a class="btn btn-warning btn-xs">lorem</a>
+    <a class="btn btn-warning btn-xs">lorem</a>
+    <a class="btn btn-warning btn-xs">lorem</a>
+  </div>
+</div>
 
 
-% if(is_user_authenticated){
-<div class="row">
-    <div class="col-md-12 text-right">
-        <span>Hi <%= current_user->name %></span>,
-        <%= link_to '/logout' => begin %>Logout<% end %>
-    </div>
-</div>
-% }
-<div class="row">
-    <div class="col-md-8 col-md-offset-2">
-        <h4>Newest questions</h4>
-% for my $row (schema('Question')->search(undef, {rows=>10})){
-        <div class="row question-row">
-            <hr>
-            <div class="col-xs-2 col-sm-3 col-md-4 col-lg-3 num-boxes text-center">
-                <a href="<%='/question/'.$row->id.'/'.string($row->title)->slug%>" class="no-link">
-                    <div class="num-box num-votes">
-                        <strong>
-                            %= '0'
-                        </strong>
-                        <br>
-                        <small>Votes</small>
-                    </div>
-                    <div class="num-box num-answer <%=$row->answers ? 'num-answer-active' : ''%>">
-                        <strong>
-                            %= $row->answers
-                        </strong>
-                        <br>
-                        <small>Answers</small>
-                    </div>
-                     <div class="num-box num-viewed hidden-xs">
-                        <strong>
-                            %= $row->viewed
-                        </strong>
-                        <br>
-                        <small>Viewed</small>
-                    </div>
-                </a>
-            </div>
-            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-9">
-                <h4>
-                    %= link_to '/question/'.$row->id.'/'.string($row->title)->slug => begin
-                        %= $row->title
-                    % end
-                </h4>
-            </div>
-            <div class="col-md-9 col-xs-12 question-info">
-                            %== "<a href='/tags/$_' class='tag-big'>$_</a>&nbsp;" for qw/lorem-loremloremlorem ipsum dolor sit amet/
-                    <small>                                
-                        <span class="hidden-xs">Asked</span> by <a href="<%= url_for '/user/'.$row->user_id.'/'.string($row->user->name)->slug %>"><%= $row->user->name  %></a>
-                    </small>
-            </div>
-        </div>
-% }
-    </div>
-</div>

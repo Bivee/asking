@@ -19,8 +19,8 @@ __PACKAGE__->load_namespaces;
 # You can replace this text with custom code or comments, and it will be preserved on regeneration
 
 sub init_db {
-    return __PACKAGE__->connect(
-        'dbi:mysql:dbname=asking', 'root', 'bivee@258', { mysql_enable_utf8 => 1 }
+    Asking::Schema->connect(
+        'dbi:mysql:dbname=asking', 'root', 'test', { mysql_enable_utf8 => 1 }
     );
 }
 

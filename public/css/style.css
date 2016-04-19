@@ -1,78 +1,42 @@
+body {  background: #eaeaea }
 
-html, body { margin-top: 27px }
-nav { border-bottom: solid 4px #999999 !important; }
-#wrap { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -60px; }
-#push, #footer { height: 60px;}
-.top-menu { line-height:60px;font-size: 11pt; text-transform: uppercase; }
-#wrap > .container { margin-top: 80px; padding-bottom: 50px; }
-.container .credit { margin: 20px 0; }
-code { font-size: 80%; }
+/* custom */
+nav.navbar-findcond { background: #fff; border-color: #ccc; box-shadow: 0 0 2px 0 #ccc; }
+nav.navbar-findcond a { color: #B34F43; }
+nav.navbar-findcond ul.navbar-nav a { color: #B34F43; border-style: solid; border-width: 0 0 2px 0; border-color: #fff; }
+nav.navbar-findcond ul.navbar-nav a:hover,
+nav.navbar-findcond ul.navbar-nav a:visited,
+nav.navbar-findcond ul.navbar-nav a:focus,
+nav.navbar-findcond ul.navbar-nav a:active { background: #fff; }
+nav.navbar-findcond ul.navbar-nav a:hover { border-color: #B34F43; }
+nav.navbar-findcond li.divider { background: #ccc; }
+nav.navbar-findcond button.navbar-toggle { background: #B34F43; border-radius: 2px; }
+nav.navbar-findcond button.navbar-toggle:hover { background: #999; }
+nav.navbar-findcond button.navbar-toggle > span.icon-bar { background: #fff; }
+nav.navbar-findcond ul.dropdown-menu { border: 0; background: #fff; border-radius: 4px; margin: 4px 0; box-shadow: 0 0 4px 0 #ccc; }
+nav.navbar-findcond ul.dropdown-menu > li > a { color: #444; }
+nav.navbar-findcond ul.dropdown-menu > li > a:hover { background: #B34F43; color: #fff; }
+nav.navbar-findcond span.badge { background: #B34F43; font-weight: normal; font-size: 11px; margin: 0 4px; }
+nav.navbar-findcond span.badge.new { background: rgba(255, 0, 0, 0.8); color: #fff; }
+nav.navbar-findcond a.navbar-brand { color: #B34F43 }
+nav.navbar-findcond form.navbar-form button.btn {padding-top: 4px; padding-bottom: 4px}
+nav.navbar-findcond ul.dropdown-menu { border-left: 1px solid #ccc; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; background: #fff; border-radius: 0px; margin: 1px 0; box-shadow: none }
 
-.box { padding: 20px 10px;}
-.top-button { height:40px; }
 
-.no-link, .no-link:hover, .no-link:focus{
-	text-decoration: none;
-	color: inherit;
-}
+/* sections */
+section { margin-bottom: 50px }
+section.cover {height: 150px; color:#eaeaea; background: #C05548; margin-top: -20px }
+section.cover h1 { font-weight: bolder }
+footer {color:#eaeaea; background: #994439; padding: 50px 0px}
 
-hr {
-	margin-top: 10px;
-	margin-bottom: 17px;
-	border-top: 1px solid #ddd;
-}
 
-section.main { margin-top: 40px; }
-footer{
-	margin-top: 50px;
-}
+/* components */
+.breadcrumb { border: 1px solid #dddddd;border-radius: 0px; font-size: 14px;font-weight: 300;text-transform: uppercase }
+.breadcrumb a {color: #B34F43; font-weight: bold}
+.breadcrumb a:hover {color: #331713; text-decoration: none}
+.alert-about { background: #C05548;border: medium none;padding-bottom: 50px; }
+.alert-about p { padding: 0px; margin: 0px }
+.alert-about a { color: #eaeaea }
+.alert-about a:hover { color: #331713; text-decoration:none }
 
-/** main page **/
-.question-row { margin-bottom: 10px; }
-.question-row h4 { margin:0; padding:0; font-size: 17px; }
-.num-boxes{
-	border-right: 1px solid #eee;
-	padding-right: 4px;
-}
-.num-box{
-	float: left;
-	padding: 4px;
-	width: 46px;
-	height: 55px;
-	margin-right: 7px;
-	font-size: 12px;
-	border: solid 1px #ddd;
-	_border-left: solid 1px #ccc;
-}
-.num-box strong{ font-size: 18px; display: inline-block; padding-bottom: 2px}
-.num-votes { }
-.num-answer { }
-.num-viewed { }
-.num-answer-active {
-	background:#576e58; /* #A94442 */
-	color: #eee;
-	border: 0;
-}
-.question-info{ margin-top: 9px; }
-.question-info small {display: block; float: right; margin-top: 8px}
-.tag-big{
-	color: #664c1e;
-	background-color:#ffe8be;
-	padding: 3px 7px;
-	margin: 2px 2px 2px 0px;
-	text-decoration: none;
-	font-size: 12px;
-	line-height: 1.4;
-	border-radius: 2px;
-	white-space: nowrap;
-	display: inline-block;
-}
-.tag-big:hover, .tag-big:focus {
-	text-decoration: none;
-	color: #664c1e;
-	background-color: #ffe0a9;
-}
 
-.clearfix {
-    clear: both;
-}

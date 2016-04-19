@@ -1,60 +1,125 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8">
-    <title><%= title || 'Bivee Asking' %></title>
+    <meta name="viewport" content="width=device-width">
+    <title><%= title || 'Bivee Asking - Perl Question & Answer Forum' %></title>
 
-    %= stylesheet '/css/bootstrap.min.css'
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://bootswatch.com/yeti/bootstrap.css" rel="stylesheet" type="text/css" />
+    <!-- link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" / -->
     %= stylesheet '/css/style.css'
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-
-    %= javascript '/js/jquery.min.js'
-    %= javascript '/js/bootstrap.min.js'
-
-</head>
-<body>
-
-<section class="header">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="/">
-                <strong class="text-danger"><li class="fa fa-comments fa-1x"></li>&nbsp;Bivee Asking</strong>
-              </a>
-            </div>
-
-            <div class="navbar-collapse collapse top-menu">
-                <ul class="nav navbar-nav">
-                    <li><a href="/questions" role="button" class="top-button">Questions</a></li>
-                    <li><a href="/categories" role="button" class="top-button">Categories</a></li>
-                    <li><a href="/tags" role="button" class="top-button">Tags</a></li>
-                </ul>
-                <ul class="nav navbar-nav pull-right">
-                    <li><a href="/ask" role="button" class="top-button">Ask Question</a></li>
-                </ul>
-            </div>
+  </head>
+  <body>
+    <nav class="navbar navbar-findcond">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">
+            <li class="fa fa-comments fa-1x"></li>
+            Bivee Asking
+          </a>
         </div>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="/user/questions">My Questions</a></li>
+            <li class="active"><a href="/user/answers">My Answers</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Profile <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Public Profile</a></li>
+                <li><a href="/user/edit">Edit Profile</a></li>
+                <li class="divider"></li>
+                <li><a href="/signout">Logout</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-right search-form" role="search">
+            <div class="input-group col-md-12">
+              <input type="text" class="  search-query form-control" placeholder="Search" />
+              <span class="input-group-btn">
+              <button class="btn btn-default" type="button">
+              <span class=" glyphicon glyphicon-search"></span>
+              </button>
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
     </nav>
-</section>    
+    <section class="cover">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Perl Brasil</h1>
+            <h3>Perl Mongers do Brasil, uni-vos!</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="forum">
+      <div class="container">
+        <div class="row">
+          <!-- /menu -->
+          <div class="col-md-12 well well-sm">
+            <ul class="nav nav-pills float-right">
+              <li class="active"><a href="/questions">Questions</a></li>
+              <li><a href="/questions?filter=unanswered">Unanswered</a></li>
+              <li><a href="/users">Users</a></li>
+              <li><a href="/news">News</a></li>
+            </ul>
+          </div>
+          <!-- /menu -->
+          <div class="col-md-12">
+            <div class="alert alert-dismissible alert-info alert-about clearfix">
+              <button type="button" class="close" data-dismiss="alert">&times;</button>
+              <div class="col-md-6">
+                <h3>Welcome to Bivee Asking!</h3>
+                <h5>The <strong class="bold-it">Bivee Asking</strong> is a website for asking and answering objective questions.</h5>
+              </div>
+              <div class="col-md-6">
+                <p>
+                  <a href="/question/ask" class="btn btn-link"><i class="fa fa-comment-o"></i> Anyone can ask.</a>
+                </p>
+                <p>
+                  <a href="/question/answer" class="btn btn-link"><i class="fa fa-comments-o"></i> Anyone can answer.</a>
+                </p>
+                <p>
+                  <a href="/user/ranking" class="btn btn-link"><i class="fa fa-users"></i> The best answers are voted and get featured.</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- /about-allert -->
+
+          <!-- main -->
+          %= content
 
 
-    <div class="container">
-        <section class="main">
-            %= content
-        </section>
-    </div>
-
-    <footer class="text-center">
-        <hr>
-        <small>Bivee Asking is a Open Source Q&A Platform build by Bivee company.</small>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>Bivee Asking is a Open Source Q&A Platform build by Bivee company.</p>
         <p><a href="http://bivee.com.br">Bivee</a></p>
+      </div>
     </footer>
-</body>
+
+
+    <!-- scripts -->
+    <script src="https://rawgit.com/angular/bower-angular/master/angular.min.js"></script>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    %= content_for 'script'
+
+  </body>
 </html>
+
 
